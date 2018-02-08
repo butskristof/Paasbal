@@ -3,7 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Kristof Buts -- organiser
+    Joppe Van den Sande -- organiser
+    Ward Van Houdt -- organiser
+    Lander Van den Sande -- organiser
+    Michiel Hoefkens -- organiser
 
 # THANKS
 
@@ -11,5 +15,5 @@
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    CSS3, HTML5, Bootstrap 4
+    jQuery, Modernizr, Normalize.css

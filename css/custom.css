@@ -1,5 +1,4 @@
 body {
-	/*background: url(../img/bg.png) no-repeat center center fixed;*/
 	background-image: -webkit-gradient(linear, 0 0, 16 1075.125, color-stop(0.012, #47a8de), color-stop(0.113, #51abe0), color-stop(0.113, #50ace0), color-stop(0.43, #98cae7), color-stop(0.43, #99c9e6), color-stop(0.519, #a6cbd9), color-stop(0.816, #799b60), color-stop(0.816, #799c5f), color-stop(0.879, #759a4e), to(#729e42));
 	background-image: -webkit-linear-gradient(270.85261230446866deg, #47a8de 1.2%, #51abe0 11.3%, #50ace0 11.3%, #98cae7 43%, #99c9e6 43%, #a6cbd9 51.9%, #799b60 81.6%, #799c5f 81.6%, #759a4e 87.9%, #729e42);
 	background-image: -moz-linear-gradient(270.85261230446866deg, #47a8de 1.2%, #51abe0 11.3%, #50ace0 11.3%, #98cae7 43%, #99c9e6 43%, #a6cbd9 51.9%, #799b60 81.6%, #799c5f 81.6%, #759a4e 87.9%, #729e42);
@@ -22,10 +21,6 @@ p, li {
 }
 
 article {
-	/*width: 600px;*/
-	/*margin-left: auto;*/
-	/*margin-right: auto;*/
-
 	background-color: white;
 	padding: 10px;
 	border-radius: 10px;
@@ -47,8 +42,6 @@ header > img {
 
 section, header {
 	border-bottom: 1px solid #eee;
-	/*margin-top: 20px;*/
-	/*margin-bottom: 20px;*/
 	padding: 15px;
 }
 
