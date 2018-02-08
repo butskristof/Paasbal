@@ -4,7 +4,7 @@ body {
 	background-image: -webkit-linear-gradient(270.85261230446866deg, #47a8de 1.2%, #51abe0 11.3%, #50ace0 11.3%, #98cae7 43%, #99c9e6 43%, #a6cbd9 51.9%, #799b60 81.6%, #799c5f 81.6%, #759a4e 87.9%, #729e42);
 	background-image: -moz-linear-gradient(270.85261230446866deg, #47a8de 1.2%, #51abe0 11.3%, #50ace0 11.3%, #98cae7 43%, #99c9e6 43%, #a6cbd9 51.9%, #799b60 81.6%, #799c5f 81.6%, #759a4e 87.9%, #729e42);
 	background-image: -o-linear-gradient(270.85261230446866deg, #47a8de 1.2%, #51abe0 11.3%, #50ace0 11.3%, #98cae7 43%, #99c9e6 43%, #a6cbd9 51.9%, #799b60 81.6%, #799c5f 81.6%, #759a4e 87.9%, #729e42);
-	background-image: linear-gradient(179.14738769553134deg, #47a8de 1.2%, #51abe0 11.3%, #50ace0 11.3%, #98cae7 43%, #99c9e6 43%, #a6cbd9 51.9%, #799b60 81.6%, #799c5f 81.6%, #759a4e 87.9%, #729e42)
+	background-image: linear-gradient(179.14738769553134deg, #47a8de 1.2%, #51abe0 11.3%, #50ace0 11.3%, #98cae7 43%, #99c9e6 43%, #a6cbd9 51.9%, #799b60 81.6%, #799c5f 81.6%, #759a4e 87.9%, #729e42);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -40,6 +40,12 @@ section, header {
 	padding: 15px;
 }
 
+footer {
+	margin-top: 15px;
+	margin-bottom: -15px;
+	padding: 10px;
+}
+
 section > h2 {
 	margin-top: 10px;
 }
@@ -54,6 +60,30 @@ h1, h2, h3, h4, h5, h6 {
 
 .row {
 	text-align: center;
+	margin-bottom: 10px;
+}
+
+.thumbnail {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.google-maps {
+	position: relative;
+	padding-bottom: 50%; /* aspect ratio */
+	height: 0;
+	overflow: hidden;
+}
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
 }
 
 @media (max-width: 576px) {
