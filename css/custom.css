@@ -9,6 +9,18 @@ body {
 	background-attachment: fixed;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+h4 {
+	font-weight: 200;
+}
+
+p, li {
+	font-size: 120%;
+}
+
 article {
 	/*width: 600px;*/
 	/*margin-left: auto;*/
@@ -44,19 +56,14 @@ footer {
 	margin-top: 15px;
 	margin-bottom: -15px;
 	padding: 10px;
+	font-size: 80%;
 }
 
 section > h2 {
 	margin-top: 10px;
 }
 
-h4 {
-	font-weight: 200;
-}
 
-h1, h2, h3, h4, h5, h6 {
-	text-align: center;
-}
 
 .row {
 	text-align: center;
@@ -85,6 +92,16 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100% !important;
 	height: 100% !important;
 }
+
+#nice > ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+#nice > ul > li > small {
+	padding-left: 20px;
+}
+
 
 @media (max-width: 576px) {
 	/*let bg come through on mobile  */
