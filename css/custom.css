@@ -33,7 +33,7 @@ header {
 	border-bottom: 1px solid black;
 }
 
-header > picture > img {
+header > picture > img, #bus img {
 	width: 90%;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -93,6 +93,12 @@ section > h2 {
 
 #nice > ul > li > small {
 	padding-left: 20px;
+}
+
+#bus img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
